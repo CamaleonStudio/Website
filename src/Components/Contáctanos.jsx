@@ -18,7 +18,7 @@ const Contactanos = () => {
         <section className="contactanos">
             <h2>CONTÁCTANOS</h2>
             <div className="contact-container">
-                <div data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
+                <div id='contacto' data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto1} alt="Imagen ilustración de teléfono" />
                     <p>+52 1 55 5502 0206</p>
                 </div>
@@ -26,7 +26,7 @@ const Contactanos = () => {
                     <img src={ImagenContacto2} alt="Imagen ilustración de E-mail" />
                     <a href='mailto:info@camaleon-studio.com'>info@camaleon-studio.com</a>
                 </div>
-                <div id='contacto' data-aos="fade-left"  data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
+                <div data-aos="fade-left"  data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto3} alt="Imagen ilustración de Redes Sociales" />
                     <a href="https://www.instagram.com/camaleon__studio/profilecard/?igsh=MWJoNDg1NWs3cTVtag==" target="_blank">IG: @camaleon__studio</a>
                     <a href="https://www.facebook.com/share/URRTNAwUV12ZcWDM/?mibextid=LQQJ4d" target="_blank">Facebook: Camaleón Studio</a>
