@@ -16,9 +16,9 @@ const Contactanos = () => {
 
     return (
         <section className="contactanos">
-            <h2>CONTÁCTANOS</h2>
+            <h2 id='contacto'>CONTÁCTANOS</h2>
             <div className="contact-container">
-                <div id='contacto' data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
+                <div data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto1} alt="Imagen ilustración de teléfono" />
                     <p>+52 1 55 5502 0206</p>
                 </div>
