@@ -1,0 +1,86 @@
+.card {
+    position: relative;
+}
+
+.card .face {
+    width: 400px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.card .face.face1 {
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(200px);
+}
+
+.card:hover .face.face1 {
+    transform: translateY(0);
+    background-color: #b07e7e;
+}
+
+.card .face.face1 .content {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.card:hover .face.face1 .content {
+    opacity: 1;
+}
+
+.card .face.face1 .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #363636;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.card .face.face2 {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transform: translateY(-200px);
+}
+
+.card:hover .face.face2 {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card img {
+    width: 310px;
+}
+
+.card .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #363636;
+    padding: 5px;
+    border: 1px solid #363636;
+}
+
+.card .face.face2 .content a:hover {
+    background-color: #363636;
+    color: #fff;
+}
+
+@media all and (max-width: 500px ) {
+    .card .face {
+        width: 350px
+    }
+}
