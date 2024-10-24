@@ -21,8 +21,8 @@ const Portada = () => {
 
     return (
         <section className="portada">
-            <h1>BIENVENIDO</h1>
-            <p id="portada-subititle">Somos una agencia de creación de contenido que busca
+            <h1></h1>
+            <p id="portada-subititle">Somos una agencia de creación y edición de contenido que busca
             conectar y transmitir mensajes poderosos</p>
             <Button content="Conoce más" section='servicios'></Button>
 
