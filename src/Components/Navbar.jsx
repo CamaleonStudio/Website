@@ -13,7 +13,7 @@ const Navbar = () => {
             <a href='#'><img src={navbarLogo} alt='Camaleon Studio logo' id='logo'/></a>
             <ul className={toggle ? 'sidebar show-sidebar' : 'sidebar'}>
                 <li>
-                    <a onClick={showSidebar} href='#servicios'>Servicios
+                    <a>Servicios
                     <svg className='arrow-down-sidebar' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F1EFE7"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
                     </a>
                     <ul  className='sidebar-submenu'>
@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
             <ul className='nav-links'>
                 <li className='hide-on-mobile'>
-                    <a href='#servicios'>Servicios
+                    <a>Servicios
                         <svg className='arrow-down' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#F1EFE7"><path d="M480-344 240-584l56-56 184 184 184-184 56 56-240 240Z"/></svg>
                     </a>
                     <ul  className='submenu'>

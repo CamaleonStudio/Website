@@ -26,7 +26,7 @@ const Servicios = () => {
                  sin importar el ámbito o la plataforma!</p>
 
             <div className='servicios-container'>
-                <div data-aos="fade-right"data-aos-anchor-placement="center-bottom" className='servicios-cards'>
+                <div data-aos="fade-right"className='servicios-cards'>
                     <Card id='edicion-video' title="Edicion de Video" image={ServiceImg1}
                     description="Ofrecemos servicios profesionales de edición de video para todo tipo 
                     de proyectos, tanto personales como empresariales.
@@ -41,7 +41,7 @@ const Servicios = () => {
                     crear un book profesional o resaltar las cualidades de tus productos."
                     ></Card>
                 </div>
-                <div data-aos="fade-left" data-aos-anchor-placement="center-bottom" className='servicios-cards'>
+                <div data-aos="fade-left" className='servicios-cards'>
                     <Card id='redes' title="Manejo de Redes" image={ServiceImg3}
                     description="Ofrecemos un servicio integral de manejo de redes sociales, 
                     diseñado para potenciar tu presencia digital. Nos encargamos de subir contenido, 
