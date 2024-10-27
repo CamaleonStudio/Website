@@ -6,9 +6,9 @@
     box-sizing: border-box;
     font-family: "Poltawski Nowy", serif;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
-body {
+body, html {
     background-color: #F1EFE7;
+    overflow-x: hidden;
 }

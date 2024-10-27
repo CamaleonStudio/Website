@@ -35,11 +35,19 @@
     width: 350px;
 }
 
-.contactanos .contact-container .contact-card p, .contactanos .contact-container .contact-card a {
+.contactanos .contact-container .contact-card p {
     font-size: 26px;
     font-weight: bold;
     color: #363636;
     text-decoration: none;
+}
+
+.contactanos .contact-container .contact-card a {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #363636; 
 }
 
 @media all and (max-width: 700px) {

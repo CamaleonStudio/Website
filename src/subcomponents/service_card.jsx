@@ -1,9 +1,9 @@
 import "./styles/service_card.css";
 
-const Card = ({ title, description, image }) => {
+const Card = ({ title, description, image, id }) => {
     
     return (
-        <div className="card">
+        <div id={id} className="card">
             <div className="face face1">
                 <div className="content">
                     <img src={image} alt="Imagen de servicio" />
@@ -13,7 +13,7 @@ const Card = ({ title, description, image }) => {
             <div className="face face2">
                 <div className="content">
                     <p>{description}</p>
-                    <a href="#">Contáctanos</a>
+                    <a href="#contacto">Contáctanos</a>
                 </div>
             </div>
         </div>

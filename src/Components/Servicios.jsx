@@ -27,7 +27,7 @@ const Servicios = () => {
 
             <div className='servicios-container'>
                 <div data-aos="fade-right"data-aos-anchor-placement="center-bottom" className='servicios-cards'>
-                    <Card title="Edicion de Video" image={ServiceImg1}
+                    <Card id='edicion-video' title="Edicion de Video" image={ServiceImg1}
                     description="Ofrecemos servicios profesionales de edición de video para todo tipo 
                     de proyectos, tanto personales como empresariales.
                     Nuestro objetivo es transformar tus ideas en producciones visuales
@@ -35,21 +35,21 @@ const Servicios = () => {
                      un resultado que destaque. Cada proyecto es único y nos comprometemos a darle 
                      el tratamiento profesional que merece."
                     ></Card>
-                    <Card title="Fotografía" image={ServiceImg2}
+                    <Card id='fotografia' title="Fotografía" image={ServiceImg2}
                     description="Ofrecemos servicios de sesiones fotográficas personalizadas, 
                     adaptadas a tus necesidades, ya sea para potenciar tu presencia en redes sociales, 
                     crear un book profesional o resaltar las cualidades de tus productos."
                     ></Card>
                 </div>
                 <div data-aos="fade-left" data-aos-anchor-placement="center-bottom" className='servicios-cards'>
-                    <Card title="Manejo de Redes" image={ServiceImg3}
+                    <Card id='redes' title="Manejo de Redes" image={ServiceImg3}
                     description="Ofrecemos un servicio integral de manejo de redes sociales, 
                     diseñado para potenciar tu presencia digital. Nos encargamos de subir contenido, 
                     gestionar posteos y crear una comunidad sólida e interactiva en tus plataformas. 
                     Nuestro enfoque se centra en interactuar activamente con tu audiencia, fomentando
                      el engagement y fortaleciendo tu marca en el entorno digital."
                     ></Card>
-                    <Card title="Live Content Creation" image={ServiceImg4}
+                    <Card id='content-creation' title="Live Content Creation" image={ServiceImg4}
                     description="Ofrecemos servicios completos de fotografía, video y 
                     edición para eventos, todo realizado con la versatilidad y calidad de un 
                     teléfono móvil. Esta opción es ideal para cubrir eventos importantes y 
