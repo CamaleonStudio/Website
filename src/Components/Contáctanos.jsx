@@ -20,7 +20,7 @@ const Contactanos = () => {
             <div className="contact-container">
                 <div data-aos="fade-right" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto1} alt="Imagen ilustración de teléfono" />
-                    <p>+52 55 5502 0206</p>
+                    <a href="https://wa.me/+525543372079" target="_blank">+52 55 5502 0206</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto2} alt="Imagen ilustración de E-mail" />
