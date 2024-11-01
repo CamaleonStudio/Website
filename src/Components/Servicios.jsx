@@ -63,7 +63,7 @@ const Servicios = () => {
             </div>
 
             <p className='servicios-subtitle' data-aos="zoom-in" data-aos-delay="500">
-                Todos nuestros servicios se ofrecen como paquetes personalizados que se ajusten a las necesidades y presupuestos de cada cliente
+                Todos nuestros servicios se ofrecen como paquetes personalizados que se ajustan a las necesidades y presupuestos de cada cliente
             </p>
 
             <Button content="Contáctanos" section="contacto"></Button>
