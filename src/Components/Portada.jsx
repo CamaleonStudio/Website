@@ -32,7 +32,7 @@ const Portada = () => {
             <HeroImage id='cd' animation="left" image={Image4} width="320px" top="43px" right='0px'></HeroImage>
         
             <HeroText id='eventos' animation="right" crossed={false} left='359px' top="154px">Eventos</HeroText>
-            <HeroText id='edicion' animation="right" crossed={false} left='309px' bottom="130px">Edicion <br/>de Video</HeroText>
+            <HeroText id='edicion' animation="right" crossed={false} left='309px' bottom="130px">Edición <br/>de Video</HeroText>
             <HeroText id='creacion' animation="left" crossed={false} right='93px' bottom="300px" textAlign='right'>Creación de <br />Contenido</HeroText>
             <HeroText id='sociales' animation="left" crossed={false} top='151px' right="361px" textAlign="right">Manejo de <br/>Redes Sociales</HeroText>
         </section>
