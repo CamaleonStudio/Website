@@ -27,7 +27,7 @@ const Servicios = () => {
 
             <div className='servicios-container'>
                 <div data-aos="fade-right"className='servicios-cards'>
-                    <Card id='edicion-video' title="Edicion de Video" image={ServiceImg1}
+                    <Card id='edicion-video' title="Edición de Video" image={ServiceImg1}
                     description="Ofrecemos servicios profesionales de edición de video para todo tipo 
                     de proyectos, tanto personales como empresariales.
                     Nuestro objetivo es transformar tus ideas en producciones visuales
