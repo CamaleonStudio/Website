@@ -22,10 +22,6 @@ const Contactanos = () => {
                     <img src={ImagenContacto1} alt="Imagen ilustración de teléfono" />
                     <a href="https://wa.me/+525555020206" target="_blank">+52 55 5502 0206</a>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
-                    <img src={ImagenContacto2} alt="Imagen ilustración de E-mail" />
-                    <a href='mailto:info@camaleon-studio.com'>info@camaleon-studio.com</a>
-                </div>
                 <div data-aos="fade-left"  data-aos-delay="500" data-aos-anchor-placement="center-bottom" className="contact-card">
                     <img src={ImagenContacto3} alt="Imagen ilustración de Redes Sociales" />
                     <a href="https://www.instagram.com/camaleon__studio/profilecard/?igsh=MWJoNDg1NWs3cTVtag==" target="_blank">IG: @camaleon__studio</a>
