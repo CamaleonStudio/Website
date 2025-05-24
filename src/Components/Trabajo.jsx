@@ -11,7 +11,10 @@ const Trabajo = () => {
             </article>
             <article className="trabajo-cards-container">
                 <InstagramEmbed url="https://www.instagram.com/watches_world_mag/" width={550} />
-                <InstagramEmbed url="https://www.instagram.com/muro.proyectos/" width={550} />
+                <InstagramEmbed url="https://www.instagram.com/magbayoceancamp/" width={550} />
+            </article>
+            <article className="trabajo-cards-container">
+                <InstagramEmbed url="https://www.instagram.com/yucatanjunglesafari/" width={550} />
             </article>
         </section>
         
